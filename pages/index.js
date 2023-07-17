@@ -4,7 +4,7 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import HomePage from "./screens/home";
 import { useDispatch } from "react-redux";
-import { getApiConfig } from "./store/homeSlice";
+import { getApiConfig } from "../store/homeSlice";
 
 export default function Home() {
   const dispatch = useDispatch();
