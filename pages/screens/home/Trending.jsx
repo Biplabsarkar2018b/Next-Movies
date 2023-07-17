@@ -1,3 +1,4 @@
+import FilmCarousel from '@/pages/components/carousel/FilmCarousel'
 import SwitchTabs from '@/pages/components/switchTabs/SwitchTabs'
 import React from 'react'
 
@@ -7,10 +8,7 @@ const Trending = () => {
   }
   return (
     <div>
-      <div className='flex'>
-      <h1>Trending</h1>
-      <SwitchTabs data={["Day","Week"]} onTabChange={onTabChange}/>
-      </div>
+      <FilmCarousel/>
     </div>
   )
 }
